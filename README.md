@@ -14,3 +14,11 @@ My solution (all files are in this repository):
 	- C:\Windows\System32\WindowsPowerShell\v1.0\Modules
 	- C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules
 - Restart Microsoft Visual Studio
+
+Now you should be able to run MSOnline module in PowerShell 32bit
+
+Simple test case (run in PowerShell 32bit):
+
+`$UserCredential = Get-Credential`
+
+`Connect-MsolService -Credential $UserCredential`
