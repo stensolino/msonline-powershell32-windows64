@@ -1,5 +1,5 @@
 I'm working on application which run PowerShell scripts related to Microsoft Office 365 service.
-Application is build with 32bit arhitecture.
+Application is built with 32bit arhitecture.
 Development Operating System is Windows 10 64bit.
 
 Based on application arhitecture Microsoft Visual Studio run 32bit PowerShell.
