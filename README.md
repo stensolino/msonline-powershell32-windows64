@@ -19,6 +19,10 @@ Now you should be able to run MSOnline module in PowerShell 32bit
 
 Simple test case (run in PowerShell 32bit):
 
-`$UserCredential = Get-Credential`
+```powershell
+$UserCredential = Get-Credential
 
-`Connect-MsolService -Credential $UserCredential`
+Connect-MsolService -Credential $UserCredential
+```
+
+
